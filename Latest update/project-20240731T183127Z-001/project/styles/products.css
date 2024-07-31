@@ -1,0 +1,128 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+}
+nav {
+    background-color: #555;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #111;
+}
+.container {
+    padding: 20px;
+}
+.productone {
+    display: inline-block;
+    width: 30%;
+    margin: 1.5%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.productone img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust as needed */
+    object-fit: cover;
+}
+.producttwo {
+    display: inline-block;
+    width: 30%;
+    margin: 1.5%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+    top: auto;
+}
+.producttwo img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust as needed */
+    object-fit: cover;
+    transform: none;
+    position: relative;
+    bottom: 0;
+}
+.productthree {
+    display: inline-block;
+    width: 30%;
+    margin: 1.5%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.productthree img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust as needed */
+    object-fit: cover;
+}
+.product h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.product p {
+    color: #777;
+}
+
+#sale-end {
+    text-align: center;
+    margin: auto;
+}
+
+#sale {
+    font-size: 3em; /* Adjust size as needed */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+    background-color: #f70000; /* Background color */
+    border: 2px solid rgb(230, 101, 101); /* Border around the countdown */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 50px; /* Padding inside the countdown */
+    display: inline-block;
+    
+}
+
+.countdown{
+    /* font styles */
+    font-size: 3em; /* Size of the font */
+    color: #333; /* Text color */
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Space above the countdown */
+    font-weight: bold;
+
+    /* Borders */
+    background-color: #f0f0f0; /* Background color */
+    border: 2px solid #ddd; /* Border around the countdown */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding inside the countdown */
+
+}
+
+/* Sale price styling */
+.sale-price {
+    color: red; /* Change the color to red */
+    font-weight: bold; /* Optional: Make the text bold */
+}
